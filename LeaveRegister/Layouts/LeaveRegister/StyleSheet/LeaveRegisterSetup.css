@@ -1,0 +1,88 @@
+﻿div.HeaderTextContainer {
+  text-align: center;
+  font-size: large;
+  margin-top: 20px;
+}
+div#LeaveRegisterSetupControlContainer {
+  margin-left: 295px;
+  margin-top: 3%;
+    font-size: 16px;
+}
+input#DBNameControl {
+  margin-left: 93px;
+}
+button#CreateDBButton {
+  margin-top: 13px;
+  width: 239px;
+}
+button#DoLeaveRegisterSettingButton {
+  margin-top: 13px;
+  width: 239px;   
+}
+div#ButtonHolder {
+    margin-left: 237px;
+}
+button#CreateTableButton {
+  margin-top: 13px;
+  width: 239px;
+}
+button#CreateFunctionButton {
+    margin-top: 13px;
+    width: 239px;
+}
+div#CreateSPButtonContainer {
+  margin-top: 13px;
+  width: 239px;
+}
+button#CreateWebConfigButton {
+  margin-top: 13px;
+  width: 239px;
+}
+div#AddAdminEmployee {
+  margin-top: 48px;
+  margin-bottom: 30px;
+}
+input#AdminEmailIdControl {
+  margin-left: 118px;
+}
+input#AdminEmployeeIdControl {
+  margin-left: 86px;
+}
+input#AdminPasswordControl {
+  margin-left: 245px;
+}
+input#AdminRePasswordControl {
+  margin-left: 220px;
+}
+button#CreateAdminUserButton {
+    margin-top: 13px;
+    width: 239px;
+}
+div#AdminEmailIdContainer {
+  margin-top: 20px;
+}
+button#CreateSPButton {
+    width: 239px;
+}
+.AdminEmployeeControls {
+     width: 238px;
+    height: 32px;
+    margin-left: 97px !important;
+    margin-bottom: 3px;
+}
+div#AdminEmployeeIdContainer {
+  margin-top: 16px;
+}
+div#AdminPasswordContainer {
+  margin-top: 16px;
+}
+div#AdminRePasswordContainer {
+  margin-top: 16px;
+}
+hr {
+    margin-right: 224px;
+    margin-left: -64px;
+    color: green;
+    border: 1px solid;
+}
+

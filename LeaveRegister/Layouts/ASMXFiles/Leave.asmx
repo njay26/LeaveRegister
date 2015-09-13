@@ -1,0 +1,1 @@
+﻿<%@ WebService Language="C#" CodeBehind="~/WebServices/Leave.cs" Class="LeaveRegister.WebServices.Leave" %>

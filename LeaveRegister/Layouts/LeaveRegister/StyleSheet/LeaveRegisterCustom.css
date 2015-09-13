@@ -1,0 +1,556 @@
+﻿/*This CSS code belongs to Login page*/
+
+
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+  width: auto;
+}
+a#CompanyNameTitle {
+    color: white;
+}
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #F0EAEA !important;
+}
+form.form-signin {
+    border: 1px solid white;
+    z-index: 850;
+    background-color: white;
+}
+.Madatory {
+    color: red;
+}
+.form-signin {
+      max-width: 330px;
+    padding: 15px;
+    margin: 164px auto auto auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-control {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+
+
+
+/*Header CSS*/
+
+#LeaveRegisterHeader {
+    background-color: rgb(164,161,160);
+}
+#CompanyName {
+    color: white;
+}
+/*Sign Up*/
+#SignUpEmpId{
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+ border-radius:4px !important;
+}
+#RegistrationEmailIdAddress
+{
+     margin-bottom: 10px;
+  border-radius:4px !important;
+}
+#NotYetUser
+{
+    float:right;
+}
+/*Forgot password*/
+#RecoverPasswordEmailId
+{
+margin-bottom:10px;
+
+border-radius:4px !important;
+}
+#KnowPassword
+{
+float:right;
+}
+
+
+/* Home*/
+.MenuTabs
+{
+color:white !important;
+}
+#ProfileImage {
+    width: 3%;
+    height: 31px;
+    text-decoration: none !important;
+}
+#ProfileImage {
+    width: 27px;
+    height: 27px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    float: left;
+    margin-right: 9px;
+}
+#ProfileInfo
+{
+margin-top:14px;
+}
+li.Tabs:hover {
+    background-color: rgba(46, 46, 53, 0.22);
+	cursor:pointer;
+}
+.LinkTabs
+{
+	cursor:pointer;
+}
+#LeaveRegisterContainer
+{
+margin-top:30px;
+}
+.HeaderStyles
+{
+font-weight:bold !important;
+}
+
+
+/*How to Use*/
+/*Attendance*/
+.attendance-panel-body
+{
+height:340px !important;
+}
+table.table.AttendanceInTimeTable {
+    margin-top: 39px !important;
+}
+#ApplyLeavePanelBodyTable {
+    width: 59% !important;
+    margin-left: 22% !important;
+    margin-top: 4% !important;
+}
+th {
+    text-align: center;
+}
+div#LeaveTableForEmployee_length {
+    width: 19%;
+}
+div#LeaveTableForEmployee_info {
+    width: 24%;
+    margin-top: 22px;
+    background-color: beige;
+}
+a#LeaveTableForEmployee_next {
+    background: none repeat scroll 0 0 #efeff7 !important;
+    border: solid 1px #DDDDDD !important;
+    border-width: 1px 1px 1px 1px !important;
+    display: inline-block !important;
+    margin: 0px !important;
+    padding: 4px 10px !important;
+}
+a#LeaveTableForEmployee_previous {
+      background: none repeat scroll 0 0 #efeff7 !important;
+    border: solid 1px #DDDDDD !important;
+    border-width: 1px 1px 1px 1px !important;
+    display: inline-block !important;
+    margin: 0px !important;
+    padding: 4px 10px !important;
+    margin-left: 42% !important;
+}
+div#LeaveTableForEmployee_filter {
+    width: 23%;
+    float: right;
+    margin-top: -25px;
+}
+select#LeaveType {
+    width: 68%;
+}
+span.SelectLeaveType {
+    margin-left: -49%;
+}
+span.ApplyYourPlannedLeave
+{
+   margin-left: -33%;
+}
+button#ApplyLeaveButton {
+    width: 68%;
+}
+/*Details*/
+.DetailsRow {
+       margin-left: 33% !important;
+    width: 60%;
+    margin-top: 3%
+}
+#GetAttendanceRegisterRow
+{
+margin-bottom:3%;
+}
+.DetailsLabel
+{
+font-size:14px;
+}
+.Status
+{
+color:blue;
+}
+.DetailsControl {
+    width: 169px;
+    height: 32px !important;
+    border-radius: 4px;
+}
+.MarginTopTwoPixel
+{
+    margin-top: 2%;
+}
+.DetailsButton {
+    width: 169px;
+}
+/*Manage your profile */
+#ProfileInfoTable {
+    width: 70%;
+}
+
+.UploadNewPic {
+       width: 44%;
+    margin-left: 47%;
+}
+.EnterProfileInfo {
+    width: 169px;
+    height: 32px !important;
+    border-radius: 4px;
+	font-size: 16px;
+    border: none;
+}
+#ProfileInfoSumbit
+{
+   width: 350px;
+}
+button#UploadImageButton {
+    margin-top: 18px;
+    width: 239px;
+	display:none;
+}
+#ImageProgressBar
+{
+	display:none;
+}
+/*Change password*/
+.PasswordInput {
+    width: 169px;
+    height: 32px !important;
+    border-radius: 4px;
+    font-size: 16px;
+	margin-left:-70px;
+}
+.LabelForPasswordChange
+{
+margin-left:70px;
+}
+
+.row.text-center.col-sm-offset-3 {
+    margin-bottom: 30px;
+}
+.MarginTop
+{
+margin-top:20px;
+}
+/*Admin*/
+.admincontainer {
+    border-left: 1px solid;
+    min-height: 400px !important;
+}
+.ConfigurLeaves {
+    margin-bottom: 24px;
+}
+/*Company Leave*/
+.CompanyLeaveRowAction {
+    cursor: pointer;
+    font-weight: bold;
+}
+/*Edit attendance*/
+.EditAttendanceControl
+{
+width: 169px;
+    height: 32px !important;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+    background-color: rgba(20, 19, 19, 0.37) !important;
+}
+.AddLeaveLabel{
+margin-left: 24px;
+ font-size: 17px;
+}
+.AddLeave {
+    margin-bottom: 19px;
+}
+span.AddLeaveLabelControl {
+    margin-left: 99px;
+    position: absolute;
+}
+.AddLeaveControl {
+    width: 185px;
+    height: 32px;
+	margin-left: 3px;
+}
+textarea#AddLeaveControlReason {
+    margin-left: -53px;
+    vertical-align: middle;
+    width: 320px;
+    height: 91px;
+}
+input#AddLeaveControlDate {
+    margin-left: -1px;
+}
+input#NewsTitleInputControl {
+    width: 316px;
+}
+input#DOBInputControl {
+    margin-left: 48px;
+}
+input#EmailIdInputControl {
+    margin-left: 24px;
+}
+input#DesignationInputControl {
+    margin-left: -6px;
+}
+input#DOJInputControl {
+    margin-left: 50px;
+}
+input#CompanyInputControl {
+    margin-left: 13px;
+}
+.AddEmployeeControl {
+    width: 238px;
+    height: 32px;
+	margin-left: 3px;
+}
+div#EmployeeTable_length {
+    width: 19%;
+}
+div#EmployeeTable_filter {
+    width: 30%;
+    float: right;
+    margin-top: -25px;
+}
+a#EmployeeTable_previous {
+        background: none repeat scroll 0 0 #efeff7 !important;
+    border: solid 1px #DDDDDD !important;
+    border-width: 1px 1px 1px 1px !important;
+    display: inline-block !important;
+    margin: 0px !important;
+    padding: 4px 10px !important;
+      float: left;
+}
+a#EmployeeTable_next {
+    float: right;
+     background: none repeat scroll 0 0 #efeff7 !important;
+    border: solid 1px #DDDDDD !important;
+    border-width: 1px 1px 1px 1px !important;
+    display: inline-block !important;
+    margin: 0px !important;
+    padding: 4px 10px !important;
+}
+a.paginate_button.current {
+    min-width: 4%; 
+      
+    display: inline-block !important;
+    padding: 4px 10px !important;
+    background-color: blue;
+    color: white;
+    height: 30px;
+    margin-bottom: 1px !important;
+}
+div#EmployeeTable_info {
+       width: 24%;
+    margin-top: 31px;
+    background-color: beige;
+}
+.ViewEmplayeesControl
+{
+    font-size: 17px;
+}
+span#ViewDOBInputControl {
+    margin-left: 48px;
+}
+span#ViewEmployeeIdInputControl {
+    margin-left: -16px;
+}
+span#ViewEmailIdInputControl {
+    margin-left: 20px;
+}
+span#ViewDesignationInputControl {
+    margin-left: -15px;
+}
+span#ViewDOJInputControl {
+    margin-left: 48px;
+}
+span#ViewCompanyInputControl {
+    margin-left: 4px;
+}
+input#EditDOBInputControl {
+    margin-left: 48px;
+}
+input#EmployeeIdInputControl {
+    margin-left: -10px;
+}
+input#EditEmailIdInputControl {
+    margin-left: 30px;
+}
+input#EditDesignationInputControl {
+    margin-left: -5px;
+}
+input#EditDOJInputControl {
+    margin-left: 50px;
+}
+input#EditCompanyInputControl {
+    margin-left: 11px;
+}
+span#ViewLeaveControlReason {
+    margin-left: -57px;
+}
+input#EditLeaveControlDate {
+    margin-left: -1px;
+}
+textarea#EditLeaveControlReason {
+    margin-left: -53px;
+    vertical-align: middle;
+    width: 320px;
+    height: 91px;
+}
+input#EditNewsTitleInputControl {
+    width: 316px;
+}
+textarea#EditAddLeaveControlReason {
+    margin-left: -53px;
+    vertical-align: middle;
+    width: 320px;
+    height: 91px;
+}
+input#EditEmployeeIdInputControl {
+    margin-left: -2px;
+}
+span#AddCompanyLeaveValidationControls {
+    margin-top: 59px;
+    position: fixed;
+}
+div#LeaveTables_length {
+    width: 19%;
+}
+div#LeaveTables_filter {
+    width: 30%;
+    float: right;
+    margin-top: -25px;
+}
+div#LeaveTables_info {
+    width: 24%;
+    margin-top: 31px;
+    background-color: beige;
+}
+a#LeaveTables_previous {
+    background: none repeat scroll 0 0 #efeff7 !important;
+    border: solid 1px #DDDDDD !important;
+    border-width: 1px 1px 1px 1px !important;
+    display: inline-block !important;
+    margin: 0px !important;
+    padding: 4px 10px !important;
+    float: left;
+}
+a#LeaveTables_next {
+    float: right;
+    background: none repeat scroll 0 0 #efeff7 !important;
+    border: solid 1px #DDDDDD !important;
+    border-width: 1px 1px 1px 1px !important;
+    display: inline-block !important;
+    margin: 0px !important;
+    padding: 4px 10px !important;
+}
+td {
+    min-width: 130px;
+}
+span#EditCompanyLeaveValidationControls {
+    margin-top: 59px;
+    position: absolute;
+}
+span#EditNewsValidationControls {
+    margin-top: 59px;
+    position: absolute;
+}
+div#NewsTable_length {
+    width: 19%;
+}
+div#NewsTable_filter {
+    width: 30%;
+    float: right;
+    margin-top: -25px;
+}
+div#NewsTable_info {
+    width: 24%;
+    margin-top: 31px;
+    background-color: beige;
+}
+a#NewsTable_previous {
+    background: none repeat scroll 0 0 #efeff7 !important;
+    border: solid 1px #DDDDDD !important;
+    border-width: 1px 1px 1px 1px !important;
+    display: inline-block !important;
+    margin: 0px !important;
+    padding: 4px 10px !important;
+    float: left;
+}
+a#NewsTable_next {
+    float: right;
+    background: none repeat scroll 0 0 #efeff7 !important;
+    border: solid 1px #DDDDDD !important;
+    border-width: 1px 1px 1px 1px !important;
+    display: inline-block !important;
+    margin: 0px !important;
+    padding: 4px 10px !important;
+}
+span#AddNewsValidationControls {
+    margin-top: 59px;
+    position: fixed;
+}
+#NewsDescription {
+        margin-left: -53px;
+    vertical-align: middle;
+    width: 320px;
+    height: 91px;
+}
+#EditNewsReasonControlReason {
+        margin-left: -53px;
+    vertical-align: middle;
+    width: 320px;
+    height: 91px;
+}

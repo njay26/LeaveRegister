@@ -1,0 +1,8 @@
+F:\Projects\LeaveRegister\LeaveRegister\bin\LeaveRegister.dll
+F:\Projects\LeaveRegister\LeaveRegister\bin\LeaveRegister.pdb
+F:\Projects\LeaveRegister\LeaveRegister\obj\Debug\ResolveAssemblyReference.cache
+F:\Projects\LeaveRegister\LeaveRegister\obj\Debug\LeaveRegister.dll
+F:\Projects\LeaveRegister\LeaveRegister\obj\Debug\LeaveRegister.pdb
+F:\Projects\LeaveRegister\LeaveRegister\bin\DocumentFormat.OpenXml.dll
+F:\Projects\LeaveRegister\LeaveRegister\bin\HtmlToOpenXml.dll
+F:\Projects\LeaveRegister\LeaveRegister\bin\OpenXmlPowerTools.dll

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="C:\inetpub\wwwroot\LeaveRegister" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile2" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="Layouts/LeaveRegister/Scripts/datatables1.10.5.js" publishTime="07/26/2015 10:35:54" />
+    <file relUrl="Layouts/LeaveRegister/Scripts/dataTables.jqueryui.js" publishTime="07/26/2015 10:35:54" />
+    <file relUrl="Layouts/LeaveRegister/PageLayouts/HowToUse.js" publishTime="06/09/2015 23:20:25" />
+    <file relUrl="Layouts/LeaveRegister/StyleSheet/bootstrap.min.css" publishTime="04/10/2015 00:30:39" />
+    <file relUrl="Layouts/LeaveRegister/Scripts/LeaveRegisterSetup.js" publishTime="05/05/2015 21:05:38" />
+    <file relUrl="Layouts/ASMXFiles/Leave.asmx" publishTime="07/02/2015 02:14:33" />
+    <file relUrl="Layouts/LeaveRegister/PageLayouts/Attendance.js" publishTime="06/09/2015 23:20:50" />
+    <file relUrl="LeaveRegister.htm" publishTime="07/26/2015 10:37:58" />
+    <file relUrl="Layouts/LeaveRegister/StyleSheet/font-awesome.css" publishTime="04/02/2015 22:26:58" />
+    <file relUrl="Layouts/ASMXFiles/Admin.asmx" publishTime="07/07/2015 00:11:40" />
+    <file relUrl="bin/LeaveRegister.pdb" publishTime="08/11/2015 23:25:34" />
+    <file relUrl="Layouts/LeaveRegister/PageLayouts/Leave.js" publishTime="06/09/2015 23:21:08" />
+    <file relUrl="Layouts/ASMXFiles/DataBase.asmx" publishTime="06/18/2015 01:11:42" />
+    <file relUrl="Layouts/ASMXFiles/Home.asmx" publishTime="06/27/2015 15:13:58" />
+    <file relUrl="LeaveRegisterSetup.htm" publishTime="07/26/2015 13:36:22" />
+    <file relUrl="Layouts/ASMXFiles/ManageProfile.asmx" publishTime="06/17/2015 22:51:51" />
+    <file relUrl="Layouts/LeaveRegister/StyleSheet/bootstrapcombinednoicons.min.css" publishTime="04/02/2015 22:25:29" />
+    <file relUrl="Layouts/LeaveRegister/PageLayouts/Details.js" publishTime="06/09/2015 23:23:23" />
+    <file relUrl="Layouts/ASMXFiles/Details.asmx" publishTime="07/04/2015 11:59:39" />
+    <file relUrl="Layouts/LeaveRegister/Scripts/Bootstrap.js" publishTime="04/02/2015 12:17:52" />
+    <file relUrl="bin/LeaveRegister.dll" publishTime="08/11/2015 23:25:35" />
+    <file relUrl="Layouts/LeaveRegister/Images/LeaveRegister_Logo.bmp" publishTime="04/02/2015 12:05:49" />
+    <file relUrl="Layouts/ASMXFiles/Attendance.asmx" publishTime="07/01/2015 23:15:22" />
+    <file relUrl="Layouts/LeaveRegister/StyleSheet/LeaveRegisterCustom.css" publishTime="08/09/2015 22:54:39" />
+    <file relUrl="Layouts/LeaveRegister/StyleSheet/LeaveRegisterSetup.css" publishTime="07/26/2015 13:37:30" />
+    <file relUrl="Layouts/LeaveRegister/PageLayouts/ManageYourProfiles.js" publishTime="06/09/2015 23:57:35" />
+    <file relUrl="Layouts/LeaveRegister/Scripts/Main.js" publishTime="08/10/2015 22:03:06" />
+    <file relUrl="Web.config" publishTime="08/11/2015 23:26:59" />
+    <file relUrl="Layouts/LeaveRegister/Images/Over_Lay.png" publishTime="04/11/2015 11:36:34" />
+    <file relUrl="Layouts/LeaveRegister/PageLayouts/Admin.js" publishTime="06/10/2015 00:05:36" />
+    <file relUrl="Layouts/LeaveRegister/PageLayouts/DataBase.js" publishTime="07/26/2015 18:35:29" />
+    <file relUrl="Layouts/LeaveRegister/PageLayouts/Home.js" publishTime="06/27/2015 15:10:14" />
+    <file relUrl="Layouts/LeaveRegister/Scripts/jQuery1.11.1.js" publishTime="04/02/2015 12:16:35" />
+    <file relUrl="Layouts/LeaveRegister/Images/Nirankar.jpg" publishTime="07/16/2015 19:45:54" />
+    <file relUrl="Layouts/LeaveRegister/Images/ChangeProfilePicIcon.bmp" publishTime="04/09/2015 08:42:31" />
+    <file relUrl="Layouts/LeaveRegister/Scripts/Utils.js" publishTime="08/09/2015 22:42:29" />
+  </publishProfile>
+</publishData>

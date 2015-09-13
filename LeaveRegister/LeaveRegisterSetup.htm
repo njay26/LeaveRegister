@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Leave Register Setup</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="Layouts/LeaveRegister/StyleSheet/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="Layouts/LeaveRegister/StyleSheet/LeaveRegisterCustom.css" rel="stylesheet" type="text/css" />
+    <script src="Layouts/LeaveRegister/Scripts/jQuery1.11.1.js" type="text/javascript"></script>
+    <script src="Layouts/LeaveRegister/Scripts/Bootstrap.js" type="text/javascript"></script>
+    <script src="Layouts/LeaveRegister/Scripts/LeaveRegisterSetup.js" type="text/javascript"></script>
+    <script src="Layouts/LeaveRegister/Scripts/Utils.js" type="text/javascript"></script>
+    <script src="Layouts/LeaveRegister/Scripts/DataBase.js" type="text/javascript"></script>
+    <link href="Layouts/LeaveRegister/StyleSheet/LeaveRegisterSetup.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="container" title="Leave Register Setup">
+        <div class="HeaderTextContainer">
+            <h3>Leave Register Setup</h3>
+        </div>
+        <hr style="width: 90% !important;margin-left: 65px !important"/>
+        <div class="HeaderTextContainer">
+            <h4 style="margin-left: 153px;">Setup Leave Register Database</h4>
+        </div>
+    <div id="LeaveRegisterSetupControlContainer">
+        <div id="DBName">
+            <div class="row">
+                <div class="col-md-2"><span id="DBNameLabelText">Server name</span></div>
+                <div class="col-md-6"> <span id="DBNameControlContainer"><input class="AddEmployeeControl" type="text" id="DBNameControl" title="Please enter SQL server name" placeholder="SQL server name"/></span></div>
+            </div>
+        </div>
+        <div id="ButtonHolder">
+        <div id="CreateDBButtonContainer">
+            <button id="CreateDBButton" class="btn btn-success adminButton">Create data base</button>
+        </div>
+        <div id="CreateWebConfigButtonContainer">
+            <button id="CreateWebConfigButton" class="btn btn-success adminButton">Do Web Config</button>
+        </div>
+        <div id="CreateTableButtonContainer">
+            <button id="CreateTableButton" class="btn btn-success adminButton">Create Tables</button>
+        </div>
+        <div id="CreateFunctionButtonContainer">
+            <button id="CreateFunctionButton" class="btn btn-success adminButton">Create SQL functions</button>
+        </div>
+        <div id="CreateSPButtonContainer">
+            <button id="CreateSPButton" class="btn btn-success v">Create Store Procedures</button>
+        </div>
+        <div id="DoLeaveRegisterSetting">
+            <button id="DoLeaveRegisterSettingButton" class="btn btn-success adminButton">Do Leave register settings</button>
+        </div>
+        </div>
+        <hr style="background-color: yellow"/>
+        <div class="HeaderTextContainer">
+            <h4 style="margin-left: -152px;">Admin Employee Registration</h4>
+        </div>
+        <div id="AddAdminEmployee">
+            <div class="row">
+                <div class="col-md-2">First Name</div>
+                <div class="col-md-6">
+                    <input type="text" id="FirstNameInputControl" class="AdminEmployeeControls" placeholder="First Name" title="Please enter employee's first name" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">Last Name</div>
+                <div class="col-md-6">
+                    <input type="text" id="LastNameInputControl" class="AdminEmployeeControls" placeholder="Last Name" title="Please enter employee's last name" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">Email Id</div>
+                <div class="col-md-6">
+                    <input type="text" id="EmailIdInputControls" class="AdminEmployeeControls" placeholder="Email Id" title="Please enter employee's email id" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">Employee id</div>
+                <div class="col-md-6">
+                    <input type="text" id="EmployeeIdInputControl" class="AdminEmployeeControls" placeholder="Employee Id" title="Please enter employee's employee id" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">Designation</div>
+                <div class="col-md-6">
+                    <input type="text" id="DesignationInputControl" style="margin-left:3px;" class="AdminEmployeeControls" placeholder="Designation" title="Please enter employee's designation">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">Date Of Joining</div>
+                <div class="col-md-6">
+                    <input type="date" id="DOJInputControls" class="AdminEmployeeControls" title="Please choose employee's date of joining" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">Company</div>
+                <div class="col-md-6">
+                    <input type="text" id="CompanyInputControls" class="AdminEmployeeControls" placeholder="Company Name" title="Please enter company name">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">Password</div>
+                <div class="col-md-6">
+                    <input type="password" class="AdminEmployeeControls" placeholder="Password" title="Please enter password" id="AdminPasswordControls" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">Re Password</div>
+                <div class="col-md-6">
+                    <input type="password" class="AdminEmployeeControls" title="Please enter re password" placeholder="Re Password" id="AdminRePasswordControls" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-6">
+                    <button id="CreateAdminUserButton" class="btn btn-success AdminEmployeeControls" title="Add admin employee">Create admin user</button>
+                </div>
+            </div>
+            <hr style="background-color: blue"/>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
